@@ -5,19 +5,19 @@ Plugin for Redmine. Will enable code previewing of cfc, cfm, clj, cpp, cu, cxx, 
   
 ### Install
 
-1. go to plugins folder
+1. download plugin and copy plugin folder redmine_more_code go to Redmine's plugins folder 
 
-`git clone https://github.com/HugoHasenbein/redmine_more_code.git`
+2. restart server f.i. (no need to migrate)
 
-2. restart server f.i.  `sudo /etc/init.s/apache2 restart`
+`sudo /etc/init.d/apache2 restart`
 
 ### Uninstall
 
-1. go to plugins folder
+1. go to plugins folder, delete plugin folder redmine_more_code
 
 `rm -r redmine_more_code`
 
-3. restart server f.i.  
+2. restart server f.i.  
 
 `sudo /etc/init.s/apache2 restart`
 
