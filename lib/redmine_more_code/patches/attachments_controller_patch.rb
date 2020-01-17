@@ -31,7 +31,6 @@ module RedmineMoreCode
           # alias_method_chain   :show, :more_code
 	  alias_method :show_without_more_code, :show
           alias_method :show, :show_with_more_code
-
         end #base
         
       end #self
