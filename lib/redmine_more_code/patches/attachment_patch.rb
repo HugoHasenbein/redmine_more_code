@@ -23,14 +23,14 @@ module RedmineMoreCode
   module Patches
     module AttachmentPatch
       def self.included(base)
-
+      
         base.class_eval do
           unloadable
                     
-		  def is_code?
-			::CodeRay::FileType[filename].present?
-		  end
-
+          def is_code?
+            ::CodeRay::FileType[filename].present?
+          end
+          
         end #class_eval
       end #included
       

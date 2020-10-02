@@ -18,6 +18,8 @@
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #
+# 1.0.1
+#       support for redmine 4.1.0, Rails 5
 
 require 'redmine'
 
@@ -25,7 +27,7 @@ Redmine::Plugin.register :redmine_more_code do
   name 'Redmine More Code'
   author 'Stephan Wenzel'
   description 'This is a plugin for Redmine to enable code preview for cfc, cfm, clj, cpp, cu, cxx, c++, C, dpr, gemspec, go, groovy, gvy, haml, hpp, h++, html.erb, js, lua, mab, pas, phtml, prawn, py3, pyw, raydebug, rjs, rpdf, ru, rxml, sass, taskpaper, template, tmproj, xaml'
-  version '1.0.0'
+  version '1.0.1'
   url 'https://github.com/HugoHasenbein/redmine_more_code'
   author_url 'https://github.com/HugoHasenbein/redmine_more_code'
 
